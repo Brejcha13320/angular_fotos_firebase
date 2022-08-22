@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Fotos Firebase</a>
+    <button class="navbar-toggler" type="button">
+    </button>
+    <div class="navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" routerLinkActive="active"  [routerLink]="['fotos']">Fotos</a>
+        <a class="nav-link" routerLinkActive="active" [routerLink]="['carga']">Cargar Fotos</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container main-container" >
+  <router-outlet></router-outlet>
+</div>
